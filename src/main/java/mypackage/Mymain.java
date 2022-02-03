@@ -15,6 +15,7 @@ public class Mymain {
         moi.demanderHeure(toi);
         moi.Pmontre.avance();
         toi.demanderHeure(moi);
+        // modifier
 
     }
 }
