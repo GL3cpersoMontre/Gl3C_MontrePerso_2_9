@@ -27,5 +27,6 @@ public class PersonneTest {Personne P = new Personne("Longuè");
     void donneHeure() {
     	P.porteMontre(m);
     	assertEquals("9h25", P.donneHeure);
+    	//ajout de la fonction
     }
 }
