@@ -11,6 +11,8 @@ public class PersonneTest {
 
     @Test
     void enleveMontre() {
+        pers.porteMontre(m);
+        assertNotNull(pers.montre);
     }
 
     @Test
