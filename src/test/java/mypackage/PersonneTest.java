@@ -20,9 +20,12 @@ public class PersonneTest {Personne P = new Personne("Longuè");
 
     @Test
     void demanderHeure() {
+    	
     }
 
     @Test
     void donneHeure() {
+    	P.porteMontre(m);
+    	assertEquals("9h25", P.donneHeure);
     }
 }
